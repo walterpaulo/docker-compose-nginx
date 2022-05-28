@@ -51,11 +51,18 @@ Validar alterações
 ```
 nginx -t
 ```
-
+Atualiza aterações
+```
+nginx -s reload
+```
+Para serviço
+```
+nginx -s stop
+```
 
 #### funçẽos
 
-proyx_pass http://coloqueAquiHost # Proxy Reverso;
+proxy_pass http://coloqueAquiHost # Proxy Reverso;
 
 
 
