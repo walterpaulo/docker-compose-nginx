@@ -7,3 +7,9 @@ services:
     container_name: nginx
     ports:
       - "8000:80"
+
+  node:
+    image: nginx:1.17.6-alpine
+    container_name: node
+    ports:
+      - "80"

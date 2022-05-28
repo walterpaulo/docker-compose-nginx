@@ -1,4 +1,6 @@
-### Docker -NGINS
+### Docker -NGINX
+
+* image: nginx:1.17.6-alpine
 
 
 #### Up
@@ -41,9 +43,20 @@ Arquivo de configuração padrão
 Diretório de configuração, *.conf
 > /etc/nginx/conf.d/
 
+Arquivo padrão HTML
+> /usr/share/nginx/html/index.html
+
+
 Validar alterações
 ```
 nginx -t
 ```
+
+
+#### funçẽos
+
+proyx_pass http://coloqueAquiHost # Proxy Reverso;
+
+
 
 
